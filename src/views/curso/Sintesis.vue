@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La unidad 1: Generalidades de las sustancias psicoactivas, ofrece una visión integral sobre las sustancias que alteran el sistema nervioso central, sus clasificaciones, efectos y riesgos, así como las problemáticas asociadas a su consumo en contextos sociales y laborales. Esta unidad permite comprender las causas biológicas, psicológicas y sociales de la farmacodependencia, y brinda herramientas para su prevención e intervención. Este enfoque holístico fortalece en los estudiantes las competencias necesarias para promover entornos laborales saludables, seguros y comprometidos con el bienestar colectivo.
+      p(data-aos="fade-up").mb-5 La unidad 3: Opciones de prevención e intervención en el contexto laboral, ofrece un enfoque integral para abordar esta problemática desde la educación, la intervención temprana y la implementación de políticas organizacionales. A lo largo de esta unidad, se analizan estrategias efectivas como la creación de ambientes laborales saludables, el diseño de programas de bienestar, el fortalecimiento de la cultura preventiva y la aplicación del modelo Treatnet como apoyo en el tratamiento de adicciones. Esta formación permite a los estudiantes identificar riesgos, aplicar medidas preventivas y liderar iniciativas que promuevan entornos de trabajo seguros, inclusivos y libres de consumo de sustancias.
 
       .row.justify-content-center
         .col-lg-12.mb-5

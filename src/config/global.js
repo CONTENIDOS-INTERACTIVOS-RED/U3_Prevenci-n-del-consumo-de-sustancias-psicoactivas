@@ -1,7 +1,8 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Generalidades de las sustancias psicoactivas',
+    numeroUnidad: '3',
+    tituloUnidad:
+      'Opciones de prevención e intervención en el contexto laboral',
   },
   menuPrincipal: {
     menu: [
@@ -15,38 +16,63 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Generalidades de las sustancias psicoactivas',
+        titulo: 'Opciones de prevención e intervención en el contexto laboral',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Depresores del sistema nervioso central',
+            titulo: 'Enfoques de intervención en el contexto laboral',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Estimulantes del sistema nervioso central',
+            titulo: 'Estrategias educativas para la prevención',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Alucinógenos',
+            titulo: 'Campañas de concientización',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Clasificación, según su origen',
+            titulo:
+              'Beneficios de la educación y concientización en el contexto laboral',
             hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Clasificación, según su legalidad',
+            titulo: 'Evaluación de la efectividad de los programas educativos',
             hash: 't_1_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Políticas de tolerancia cero y normativas internas',
+            hash: 't_1_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.7',
+            titulo: 'Programas de bienestar integral',
+            hash: 't_1_7',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.8',
+            titulo: 'Intervención temprana y apoyo continuo',
+            hash: 't_1_8',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.9',
+            titulo: 'Fomento de un ambiente laboral positivo',
+            hash: 't_1_9',
           },
         ],
       },
@@ -54,26 +80,15 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Problemáticas asociadas al consumo de sustancias psicoactivas',
+        titulo:
+          'La estrategia Treatnet como modelo de apoyo en el tratamiento de adicciones',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Factores biológicos',
+            titulo: 'Origen y principios de la estrategia Treatnet',
             hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Consecuencias sociales',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Consecuencias económicas',
-            hash: 't_2_3',
           },
         ],
       },
@@ -81,34 +96,10 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Etiología de la farmacodependencia',
+        titulo:
+          'Empresas libres de consumo de sustancias psicoactivas  de la sociedad',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Factores biológicos',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Factores psicológicos',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Otros factores',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Interacción de factores',
-            hash: 't_3_4',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'sintesis',
@@ -148,100 +139,114 @@ export default {
   referencias: [
     {
       referencia:
-        'López-Muñoz, F., González, E., Serrano, M.D., Antequera, R., & Alamo, C.. (2011). Una visión histórica de las drogas de abuso desde la perspectiva criminológica (Parte I). Cuadernos de Medicina Forense, 17(1), 21-33.',
+        'Cantera, J. (2023). La salud mental en la empresa: cómo crear trabajos saludables y mejorar la salud mental de tu equipo (1 ed.). LID Editorial España.',
       link:
-        'http://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1135-76062011000100005&lng=es&tlng=es',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/270585?page=25',
     },
     {
       referencia:
-        'Oficina de Naciones Unidas contra la droga y el delito. OMS. Informe mundial sobre drogas 2016. [Internet]. 2016 [citado 2018 Ene 24].',
-      link: 'https://www.unodc.org/doc/wdr2016/WDR_2016_ExSum_spanish.pdf',
+        'Recalde, M. M. & Recalde E. H. (2016). Educación y prevención del consumo problemático de drogas I: alcohol y tabaco ( ed.). Ediciones del Aula Taller.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/77225?page=87',
     },
     {
       referencia:
-        'Venegas Silva, Viviana. (2014). Legalización de la marihuana, la libertad que amenaza la salud pública. Revista chilena de pediatría',
-      link: 'http://dx.doi.org/10.4067/S0370-41062014000600001',
-    },
-    {
-      referencia:
-        'Organización de los Estados Americanos (OEA). El problema de las drogas en las Américas [internet]. 2013 [citado 2020 abr 08].',
+        'Basic Volume for participants: Elements of Drug Depence Treatment. (s. f.). United Nations : Office On Drugs And Crime.',
       link:
-        'http://fileserver.idpc.net/library/Informe-OEA_El-problema-de-las-drogas-en-lasAmericas.pdf',
+        'https://www.unodc.org/unodc/en/treatment-and-care/basic-volume-for-participants.html',
     },
     {
       referencia:
-        'González González, A. & González González, A. (Coord.). (2011). Juventud, cultura y consumo de sustancias en contextos escolares: ( ed.). Editorial Miguel Ángel Porrúa.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/41215?page=46',
+        'Treatnet Training package. (s. f.). United Nations : Office On Drugs And Crime.',
+      link: 'http://www.unodc.org/treatment/index.html',
     },
     {
       referencia:
-        'García Payares, R. M., Mendoza Figueredo, S. P., & Rivera Altamiranda, Y. D. C. (2020). Contexto sociofamiliar en el desarrollo de adicciones a sustancias psicoactivas en adolescentes.',
+        'Hernandez Trujillo, M. M., & Garzón Arévalo, D. R. (2021). Diseño del programa de prevención de consumo de sustancias psicoactivas en la empresa Millenium BPO SA.',
       link:
-        'https://repositorio.cecar.edu.co/server/api/core/bitstreams/d7562fe1-03e7-4cd2-99f4-64211e303380/content',
+        'https://repositorio.ecci.edu.co/server/api/core/bitstreams/165d55f9-924c-4368-9685-e553f117e3c0/content',
+    },
+    {
+      referencia:
+        'Anaya Simanca, L. P. (2021). Sistematización de aprendizaje de práctica profesional en el diseño del programa de prevención del consumo de sustancias psicoactivas, alcohol y tabaco en la empresa Casa Británica S. A (Doctoral dissertation, Corporación Universitaria Minuto de Dios).',
+      link:
+        'https://repository.uniminuto.edu/server/api/core/bitstreams/cc263823-2c11-46e8-982b-54d9cb886239/content',
     },
   ],
   glosario: [
     {
-      termino: 'Abstinencia',
+      termino: 'Acoso laboral',
       significado:
-        'Síntomas físicos y psicológicos al dejar de consumir una droga.',
+        'Conducta reiterada que atenta contra la dignidad o integridad de un trabajador.',
     },
     {
-      termino: 'Adicción',
+      termino: 'Ambiente laboral',
       significado:
-        'Enfermedad crónica caracterizada por el uso compulsivo de drogas.',
+        'Conjunto de condiciones en el trabajo que influyen en el bienestar de los empleados.',
     },
     {
-      termino: 'Alucinógenos',
-      significado: 'Sustancias que alteran la percepción de la realidad.',
-    },
-    {
-      termino: 'Depresores',
+      termino: 'Burnout',
       significado:
-        'Sustancias que disminuyen la actividad del sistema nervioso central.',
+        'Síndrome de agotamiento físico y emocional causado por estrés laboral prolongado.',
     },
     {
-      termino: 'Dopamina',
+      termino: 'Clima organizacional',
       significado:
-        'Neurotransmisor clave en la sensación de placer y recompensa.',
+        'Percepción colectiva de los empleados sobre el entorno de trabajo.',
     },
     {
-      termino: 'Estimulantes',
-      significado: 'Drogas que aumentan la actividad del sistema nervioso.',
-    },
-    {
-      termino: 'Factores de riesgo',
+      termino: 'Conflicto laboral',
       significado:
-        'Elementos que aumentan la probabilidad de desarrollar una adicción.',
+        'Desacuerdo entre trabajadores o entre empleados y empleadores en un entorno laboral.',
     },
     {
-      termino: 'Factores protectores',
-      significado: 'Condiciones que reducen el riesgo de consumo de drogas.',
-    },
-    {
-      termino: 'Farmacodependencia',
+      termino: 'Cultura organizacional',
       significado:
-        'Dependencia física y psicológica de una sustancia psicoactiva.',
+        'Conjunto de valores, normas y prácticas que caracterizan a una empresa.',
     },
     {
-      termino: 'Neurotransmisor',
+      termino: 'Desempeño laboral',
       significado:
-        'Sustancia química que transmite señales en el sistema nervioso.',
+        'Nivel de cumplimiento de las tareas y objetivos de un trabajador.',
     },
     {
-      termino: 'Políticas de drogas',
+      termino: 'Estrés laboral',
       significado:
-        'Normativas para el control y prevención del consumo de sustancias.',
+        'Respuesta negativa del cuerpo ante exigencias o presiones en el trabajo.',
     },
     {
-      termino: 'Síndrome de abstinencia',
+      termino: 'Evaluación de riesgos',
       significado:
-        'Conjunto de síntomas que ocurren al suspender el consumo de una droga.',
+        'Análisis sistemático de peligros potenciales en el entorno laboral.',
     },
     {
-      termino: 'Sustancias psicoactivas',
+      termino: 'Fatiga laboral',
       significado:
-        'Compuestos químicos que alteran la percepción y el comportamiento.',
+        'Sensación de cansancio extremo debido a una carga excesiva de trabajo.',
+    },
+    {
+      termino: 'Liderazgo organizacional',
+      significado:
+        'Capacidad de un líder para influir en su equipo dentro de una empresa.',
+    },
+    {
+      termino: 'Motivación laboral',
+      significado:
+        'Factores internos y externos que impulsan a los empleados a cumplir sus tareas.',
+    },
+    {
+      termino: 'Prevención de riesgos',
+      significado:
+        'Conjunto de medidas para reducir accidentes y enfermedades laborales.',
+    },
+    {
+      termino: 'Seguridad en el trabajo',
+      significado:
+        'Condiciones y normas que garantizan la integridad física y mental del trabajador.',
+    },
+    {
+      termino: 'Trabajo en equipo',
+      significado:
+        'Colaboración entre empleados para alcanzar objetivos comunes.',
     },
   ],
 }

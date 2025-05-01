@@ -1,1 +1,1 @@
-module.exports = 'Generalidades de las sustancias psicoactivas'
+module.exports = 'Opciones de prevención e intervención en el contexto laboral'

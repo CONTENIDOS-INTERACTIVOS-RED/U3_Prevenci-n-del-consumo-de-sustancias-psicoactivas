@@ -1,123 +1,82 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Etiología de la farmacodependencia'")
+    BannerInterno(:subTitulo="'3. Empresas libres de consumo de sustancias psicoactivas  de la sociedad'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-      .row.mb-4
+      .row.mb-4.mx-0
+        .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo.p-4(data-aos="fade-up")
+          p.mb-0 Para las empresas, el camino hacia la productividad y el bienestar es el más indicado, con el fin de alcanzar sus objetivos estratégicos; es por eso que el impacto de las sustancias psicoactivas, ha desmejorado mucho la salud mental y física de los individuos y el rendimiento laboral, lo que ha llevado a muchas organizaciones a replantearse sus políticas internas y a adoptar un enfoque más proactivo en la creación de entornos laborales saludables. Las empresas libres de consumo de sustancias psicoactivas no solo benefician a sus empleados, sino que también fomentan una cultura organizacional que prioriza el bienestar y la productividad.
+        .d-none.d-xl-block.col-4.px-0
+          img.h-100(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
+
+      .row.mb-4 
+        .col-4.d-none.d-xl-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-47.png', alt='Texto que describa la imagen')
         .col-12.col-xl-8
+          h2 La importancia de un entorno laboral saludable
+          p.mb-4 La salud y el bienestar de los empleados son fundamentales para el éxito de cualquier empresa. Un entorno laboral libre de sustancias psicoactivas contribuye a la creación de un espacio donde los trabajadores pueden desempeñarse al máximo de su capacidad.
           .d-flex.align-items-start.bg-rojo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-53.svg', alt='Texto descriptivo de la imagen')
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-48.svg', alt='Texto descriptivo de la imagen')
             .my-auto
-              p.pe-xl-3.mb-0 La farmacodependencia, también conocida como adicción a sustancias, es un fenómeno complejo que afecta a millones de personas en todo el mundo. Se caracteriza por un patrón compulsivo de consumo de drogas, que lleva a la pérdida de control sobre el uso, la tolerancia, y la aparición de síntomas de abstinencia. 
-          span La farmacodependencia se define generalmente como un trastorno que se manifiesta a través de un deseo incontrolable de consumir una o más sustancias, a pesar de las consecuencias negativas que esto pueda acarrear. La Organización Mundial de la Salud (OMS), clasifica la farmacodependencia como una enfermedad crónica, que puede ser tratada, pero no curada. La relación entre el individuo y la sustancia, es fundamental para entender la naturaleza de esta condición.
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
+              p.pe-xl-3.mb-0 Las sustancias psicoactivas, como el alcohol, las drogas ilegales y en algunos casos, incluso el consumo excesivo de medicamentos prescritos, pueden afectar negativamente la concentración, la motivación y la capacidad de tomar decisiones. Esto no solo repercute en la salud de los empleados, sino que también puede resultar en un descenso en la calidad del trabajo y un aumento en los accidentes laborales.
 
-      #t_3_1.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 3.1
-          h2 Factores biológicos
-
-      p.mb-4(data-aos="fade-up") Los factores biológicos son una de las principales áreas de estudio en la etiología de la farmacodependencia. Estos incluyen la genética, la neurobiología y el funcionamiento del sistema nervioso.
-
-      .row.bg-azul.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3.py-4.d-flex
-          .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
-            img.h-100(src='@/assets/curso/unidad/img-55.png', alt='Texto que describa la imagen') 
-          .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
-            h2.mb-4.pb-2.me-auto Factores biológicos
-            p.mb-5(data-aos="fade-up") En el PDF Factores biológicos , se estudian aspectos clave como la predisposición genética, la neurobiología del cerebro adicto y las alteraciones del sistema nervioso, que explican cómo las sustancias psicoactivas afectan el comportamiento y la salud. Este enfoque permite fundamentar estrategias preventivas y terapéuticas más eficaces desde una perspectiva científica y multidimensional.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Factores biológicos.pdf')" target="_blank")
-              img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Factores biológicos
-
-      #t_3_2.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 3.2
-          h2 Factores psicológicos
-
-      p.mb-4(data-aos="fade-up") Los factores psicológicos desempeñan un papel fundamental en la comprensión de la farmacodependencia, debido a que influyen en la manera en que una persona se relaciona con las sustancias psicoactivas y su capacidad para manejar las dificultades emocionales y sociales.
+      h2 Políticas y programas de prevención
+      p.mb-4 Como lo explicamos en la primera parte de esta unidad, para que una empresa sea verdaderamente libre de consumo de sustancias psicoactivas, es fundamental implementar políticas claras y efectivas. Esto puede incluir la creación de un código de conducta que prohíba el uso de estas sustancias en el lugar de trabajo, así como la realización de talleres y capacitaciones sobre los riesgos asociados con su consumo. 
 
       .row.mb-4
-        .col-12.col-md-10.mx-auto
-          .bg-amarillo.px-4.row
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-56.png', alt='Texto que describa la imagen')
-            .col-12.col-xl-8.d-flex
-              p.my-auto(data-aos="fade-up") Entre estos factores, unos de los más significativos, son los trastornos mentales. Muchas personas que desarrollan una dependencia a las drogas o al alcohol, pueden estar lidiando con condiciones como la depresión, la ansiedad, el trastorno de estrés postraumático o trastornos de la personalidad, que pueden llevarlas a buscar alivio temporal a través del consumo de sustancias.
-          .bg-amarillo-oscuro.px-4.row
-            .col-12.col-xl-8.d-flex
-              p.my-auto(data-aos="fade-up") Las experiencias traumáticas desempeñan un papel crucial en el desarrollo de la farmacodependencia. Eventos como abusos físicos o emocionales, la pérdida de un ser querido, o situaciones de violencia, pueden dejar huellas profundas en la psique de un individuo. En muchos casos, las personas recurren a las drogas como una forma de escapar del dolor emocional, derivado de tales experiencias, buscando una forma de automedicación que, a la larga, puede resultar en una dependencia. 
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-57.png', alt='Texto que describa la imagen')
-
-      .row.mb-4
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-58.png', alt='Texto que describa la imagen')
         .col-12.col-xl-8
-          p.mb-4(data-aos="fade-up") Por otro lado, la personalidad del individuo también influye en su relación con las sustancias. Características como la impulsividad, la búsqueda de sensaciones intensas, y la falta de habilidades de afrontamiento, pueden predisponer a una persona a experimentar con drogas o a abusar de ellas. La forma en que una persona maneja el estrés, las relaciones interpersonales y las presiones sociales, también puede determinar su vulnerabilidad a desarrollar una farmacodependencia.
-          .d-flex.align-items-start.bg-azul-claro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-59.svg', alt='Texto descriptivo de la imagen')
+          .row.bg-azul-claro.p-4.py-xl-0
+            .col-2.d-none.d-xl-block(data-aos="zoom-in")
+              img(src='@/assets/curso/unidad/img-49.png', alt='Texto que describa la imagen')
+            .col-12.col-xl-10.d-flex
+              p.my-auto Además, es vital establecer programas de prevención y concientización que aborden las causas subyacentes del consumo, como el estrés laboral, la presión por resultados y la falta de apoyo emocional.
+          .row.bg-azul.p-4
+            span Las empresas también pueden considerar la implementación de programas de asistencia al empleado (EAP, por sus siglas en inglés), que ofrezcan recursos y apoyo a aquellos que puedan estar lidiando con problemas relacionados con el consumo de sustancias. Estos programas pueden incluir asesoría psicológica, grupos de apoyo y recursos educativos que ayuden a los empleados a comprender los riesgos del consumo y a buscar ayuda si es necesario.
+        .col-4.d-none.d-xl-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-50.png', alt='Texto que describa la imagen')
+
+      .row.mb-4
+        .col-3.d-none.d-xl-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-9
+          h2 Beneficios de ser una empresa libre de sustancias psicoactivas
+          p.mb-4 Los beneficios de establecer un entorno laboral libre de sustancias psicoactivas son numerosos y van más allá del simple cumplimiento de normativas. En primer lugar, las empresas que adoptan esta filosofía suelen experimentar una mejora en la moral y la satisfacción de los empleados. Un ambiente de trabajo saludable y seguro fomenta la lealtad y el compromiso, lo que a su vez se traduce en una mayor retención del talento y una disminución de la rotación de personal.
+          .bg-amarillo.p-4
+            span Además, el rendimiento general de la empresa puede verse significativamente incrementado. Empleados más saludables y menos distraídos por problemas relacionados con el consumo de sustancias son más productivos, creativos y colaborativos. Esto puede llevar a una mejora en la calidad del trabajo, un aumento en la eficiencia operativa y, en última instancia, un crecimiento en la rentabilidad de la empresa.
+      
+      .row.mb-4 
+        .col-12.col-xl-8
+          h2 La responsabilidad social corporativa
+          p.mb-4 Adoptar una postura firme contra el consumo de sustancias psicoactivas también puede ser visto como una responsabilidad social corporativa (RSC). 
+          .d-flex.align-items-start.bg-azul.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-52.svg', alt='Texto descriptivo de la imagen')
             .my-auto
-              p.pe-xl-3.mb-0 Los factores psicológicos son variables interrelacionadas que, junto a los factores biológicos y sociales, conforman un panorama complejo en el que se desarrolla la farmacodependencia. Comprender estos elementos es esencial para abordar el tratamiento y la prevención de la adicción, así como para ofrecer un apoyo adecuado a quienes luchan con estos desafíos. 
+              p.pe-xl-3.mb-0 Las empresas tienen la obligación de contribuir al bienestar de la comunidad en la que operan, y al promover un ambiente de trabajo saludable, están enviando un mensaje claro sobre la importancia de la salud pública. 
+          span Esto no solo mejora la imagen de la empresa ante sus clientes y socios comerciales, sino que también puede influir positivamente en la comunidad en general, al establecer un estándar que otras organizaciones puedan seguir.
+        .col-4.d-none.d-xl-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
 
-      #t_3_2.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 3.2
-          h2 Otros factores
+      h2 Desafíos y consideraciones
+      .row.mb-4.mx-0
+        .d-none.d-xl-block.col-4.px-0
+          img.h-100(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8.d-flex.align-items-center.bg-rojo.p-4(data-aos="fade-up")
+          p.mb-0 Aunque los beneficios de ser una empresa libre de consumo de sustancias psicoactivas son claros, también existen desafíos que deben ser abordados. La implementación de políticas puede enfrentar resistencia por parte de algunos empleados, especialmente si hay una cultura existente que normaliza el consumo. Por ello, es esencial que la alta dirección y los líderes de la organización se comprometan de manera activa a promover y modelar comportamientos saludables.
 
-      p.mb-4(data-aos="fade-up") El estudio de los factores que influyen en el desarrollo de la farmacodependencia requiere una mirada amplia y multidimensional.
+      .row.mb-5
+        .col-12.col-xl-8
+          .row.mb-4
+            .col-3.d-none.d-xl-block(data-aos="zoom-in")
+              img(src='@/assets/curso/unidad/img-55.png', alt='Texto que describa la imagen')
+            .col-12.col-xl-9
+              span Es importante considerar la diversidad y la inclusión dentro de estos programas. No todos los empleados tendrán las mismas experiencias o antecedentes en relación con el consumo de sustancias, y es vital que las políticas sean justas y respetuosas de estas diferencias. La comunicación abierta y el fomento de un ambiente de apoyo son clave para garantizar que todos los empleados se sientan cómodos y respaldados en su camino hacia una vida libre de sustancias psicoactivas.
+          .bg-morado.p-4
+            span Para finalizar podemos decir que las empresas libres de consumo de sustancias psicoactivas están en la vanguardia de un cambio positivo en el mundo laboral. Al priorizar la salud y el bienestar de sus empleados, no solo están construyendo un entorno de trabajo más seguro y productivo, sino que también están estableciendo un ejemplo a seguir para otras organizaciones. A medida que más empresas adopten este enfoque, se contribuirá a la creación de comunidades más saludables y resilientes, donde el bienestar de los individuos y el éxito empresarial vayan de la mano. La transformación hacia un entorno laboral libre de sustancias psicoactivas y productivo.
+        .col-4.d-none.d-xl-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-56.png', alt='Texto que describa la imagen')
 
-      .row.bg-azul.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3.py-4.d-flex
-          .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-            h2.mb-4.pb-2.me-auto Otros factores
-            p.mb-5(data-aos="fade-up") En el PDF Otros factores , se analizan variables psicológicas, sociales y contextuales como los trastornos mentales, el trauma, la personalidad, la presión de grupo, el entorno familiar y la disponibilidad de sustancias, que inciden significativamente en el inicio y la perpetuación del consumo. Este enfoque permite comprender cómo diversas experiencias y condiciones del entorno pueden interactuar y aumentar la vulnerabilidad al uso problemático de drogas.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Otros factores.pdf')" target="_blank")
-              img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Otros factores
-          .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
-            img.h-100(src='@/assets/curso/unidad/img-60.png', alt='Texto que describa la imagen') 
-  
-      #t_3_4.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 3.4
-          h2 Interacción de factores
 
-      p.mb-4(data-aos="fade-up") Es fundamental resaltar que la farmacodependencia es un fenómeno complejo que no puede atribuirse a un solo factor aislado. En realidad, se origina a partir de la interacción de una variedad de elementos que se entrelazan de manera intrincada. Estos elementos se pueden clasificar en tres categorías principales: biológicos, psicológicos y sociales, y cada uno de ellos puede desempeñar un papel crucial en el desarrollo de una adicción:
-
-      .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
-        div.px-4.px-md-5.py-md-3
-          SlyderA(tipo="b").bg-white
-            .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Factores biológicos
-                p Incluyen características genéticas que pueden predisponer a un individuo a la farmacodependencia. Investigaciones han demostrado que ciertas variaciones genéticas pueden influir en cómo una persona metaboliza las sustancias y en su capacidad para resistir la tentación de usarlas. Además, la neuroquímica del cerebro juega un papel importante; por ejemplo, desequilibrios en neurotransmisores como la dopamina, pueden contribuir a la búsqueda compulsiva de gratificación a través del consumo de drogas.
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-61.png', alt='Texto que describa la imagen') 
-            .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Factores psicológicos
-                p Son determinantes. Las personas que enfrentan problemas de salud mental, como ansiedad, depresión o trastornos de personalidad, pueden recurrir a las sustancias como una forma de automedicación para manejar su malestar emocional. Esta búsqueda de alivio temporal puede llevar a un patrón de uso problemático y eventualmente a la dependencia. La historia personal de un individuo, incluyendo experiencias traumáticas, puede influir en su vulnerabilidad a desarrollar adicciones. Por ejemplo, aquellos que han experimentado abuso físico, emocional o sexual, en su infancia, pueden ser más susceptibles a la farmacodependencia, en la adultez.
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-62.png', alt='Texto que describa la imagen') 
-            .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Factores sociales
-                p No pueden ser ignorados. El entorno en el que una persona se desarrolla, tiene un impacto significativo en sus comportamientos y elecciones. Crecer en un contexto donde el uso de sustancias es normalizado, como en comunidades con alta disponibilidad de drogas o donde el consumo de alcohol es habitual, puede aumentar la probabilidad para que un individuo se involucre en comportamientos adictivos. Además, las dinámicas familiares, la presión de pares y la falta de apoyo social, son aspectos que pueden influir en la decisión de una persona para experimentar con sustancias y, eventualmente, caer en la dependencia.
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-63.png', alt='Texto que describa la imagen') 
-
-      .row.mb-4.bg-full-width.ps-4.bg-gris.text-white
-        .col-12.col-xl-8.d-flex
-          p.my-auto La farmacodependencia es un trastorno complejo que resulta de la interacción de múltiples factores biológicos, psicológicos y sociales. Comprender la etiología de la farmacodependencia, es esencial para desarrollar estrategias efectivas de prevención y tratamiento. Al abordar no solo el comportamiento adictivo, sino también los factores subyacentes que lo alimentan, se puede ofrecer un enfoque más holístico y efectivo para ayudar a quienes luchan contra la adicción. La investigación continua en este campo, es vital para mejorar las intervenciones y reducir el impacto de la farmacodependencia en la sociedad.
-        .col-4.d-none.d-xl-block.px-0
-          img(src='@/assets/curso/unidad/img-64.png', alt='Texto que describa la imagen')
-
-      .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .bg-full-width.border-top.actividad.mb-5(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
         .p-4.p-md-5
           #Actividad
             <Actividad :cuestionario='cuestionario'/>
@@ -129,15 +88,15 @@
             .col-12.col-md-6.col-lg-8
               p.d-flex.my-4
                 img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.unodc.org/colombia/es/informe-mundial-de-drogas-2018_-crisis-de-opioides--abuso-de-medicamentos-y-niveles-record-de-opio-y-cocaina.html") Oficina de las Naciones Unidas contra la Droga y el Delito (UNODC). Informe Mundial de Drogas 2018: crisis de opioides, abuso de medicamentos y niveles récord de opio y cocaína. 2018
+                a.text-small.text-primary(target="_blank", href="https://repository.uniminuto.edu/server/api/core/bitstreams/354a4143-2367-46a1-9bba-efae0d243f3b/content") Ríos, L. E. (2022). Guía para el diseño e implementación del programa de prevención de consumo de sustancias.
               p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=hsNz2oObKeY") [Vídeo] Lalo Kura. AUDIOLIBRO SOBRE DROGAS #9 - BENZODIAZEPINAS.
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/podcast-icon.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://open.spotify.com/episode/0bcISOpw64J7oJCbgwc4GX?si=3uBTZ_mYSRybyqzG6VZNqw") [Podcast] Voz y mente. (2024, 4 de abril) Consumo de sustancias psicoactivas y salud mental.
             .col-12.col-md-6.col-lg-3
               figure
                 img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
-
+      
 </template>
 
 <script>
@@ -158,172 +117,161 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es el objetivo principal de los programas de prevención del consumo de sustancias psicoactivas?',
+            '¿Cuál es el principal objetivo de la prevención del consumo de sustancias psicoactivas en el ámbito laboral?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Eliminar completamente el uso de drogas en la sociedad.',
+              texto: 'Castigar a los trabajadores que consumen sustancias.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Reducir los factores de riesgo y fortalecer los factores de protección.',
+                'Promover un entorno saludable y prevenir riesgos laborales.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Castigar a quienes consumen para evitar la reincidencia.',
+              texto: 'Identificar y despedir a los trabajadores consumidores.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Aumentar la disponibilidad de información sobre drogas sin necesidad de intervención.',
+              texto: 'Aumentar la carga de trabajo para evitar el consumo.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. La prevención no solo busca evitar el consumo, sino que también fortalece habilidades y entornos saludables para reducir los riesgos y fomentar decisiones responsables. No se trata solo de castigo ni de prohibición total, sino de educación y promoción del bienestar.',
+            'Lo sentimos, su respuesta no es la correcta. La prevención busca generar un ambiente saludable, reducir factores de riesgo y fomentar estilos de vida positivos en el trabajo.',
         },
         {
           id: 2,
           texto:
-            '¿Cuál de las siguientes estrategias es clave en la prevención universal del consumo de sustancias psicoactivas?',
+            '¿Cuál de las siguientes estrategias es clave en la prevención del consumo de sustancias en el ámbito laboral?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Campañas de miedo exageradas sobre los efectos de las drogas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'Promoción de habilidades socioemocionales en niños, adolescentes y adultos.',
+              texto: 'Implementar políticas claras sobre el consumo.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Prohibir la comunicación entre los empleados.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto:
-                'Prohibición estricta de cualquier información sobre drogas en las escuelas.',
+              texto: 'Reducir los descansos laborales para evitar el consumo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Incentivar el consumo controlado para evitar el abuso.',
+              texto:
+                'Exigir pruebas de consumo a todos los empleados sin previo aviso.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. La prevención universal busca impactar a toda la población a través del desarrollo de habilidades como la toma de decisiones, la gestión emocional y la resistencia a la presión social, lo que reduce significativamente la probabilidad de consumo.',
+            'Lo sentimos, su respuesta no es la correcta. Una política clara ayuda a establecer normas, procedimientos y sanciones en relación con el consumo de sustancias en el trabajo.',
         },
         {
           id: 3,
           texto:
-            '¿Cuál de los siguientes factores aumenta el riesgo de consumo de sustancias psicoactivas en adolescentes?',
+            '¿Qué enfoque es más efectivo para prevenir el consumo de sustancias psicoactivas en el contexto laboral?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Un entorno familiar con comunicación efectiva y apoyo emocional.',
+                'Centrar las acciones solo en trabajadores con problemas previos.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Participación en actividades extracurriculares y deportivas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Acceso fácil a drogas y presión de grupo.',
+                'Implementar programas integrales de prevención y bienestar.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Aplicar medidas punitivas para erradicar el problema.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: 'Programas de educación preventiva desde la infancia.',
+              texto: 'Ignorar el problema mientras no afecte la productividad.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Los adolescentes expuestos a un entorno donde las drogas son fácilmente accesibles y donde la presión social promueve el consumo tienen un mayor riesgo de desarrollar problemas de abuso de sustancias. La prevención debe centrarse en reducir estos factores de riesgo.',
+            'Lo sentimos, su respuesta no es la correcta. Un enfoque integral incluye promoción de la salud, educación, detección temprana y apoyo para el bienestar laboral.',
         },
         {
           id: 4,
           texto:
-            '¿Qué papel juegan las políticas públicas en la prevención del consumo de sustancias psicoactivas?',
+            '¿Cuál de los siguientes factores puede aumentar el riesgo de consumo de sustancias en el trabajo?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Regular el acceso a las sustancias y promover programas de prevención.',
+              texto: 'Clima laboral negativo y estrés.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Prohibir cualquier información sobre drogas en los medios de comunicación.',
+              texto: 'Políticas claras de prevención.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Responsabilizar únicamente a las familias en la prevención del consumo.',
+              texto: 'Acceso a programas de bienestar.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Castigar penalmente a cualquier persona que haya probado una sustancia.',
+              texto: 'Comunicación abierta con los supervisores.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Las políticas públicas deben equilibrar la regulación del acceso a sustancias con estrategias de educación y prevención para reducir el consumo y sus consecuencias negativas en la sociedad.',
+            'Lo sentimos, su respuesta no es la correcta. Un ambiente laboral hostil, la alta carga laboral y el estrés pueden incrementar el riesgo de consumo de sustancias.',
         },
         {
           id: 5,
           texto:
-            '¿Por qué es importante un enfoque integral en la prevención del consumo de sustancias psicoactivas?',
+            '¿Qué elemento es esencial en una política de prevención de consumo de sustancias en una empresa?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Porque combina factores individuales, familiares, escolares y comunitarios para reducir el riesgo de consumo.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto:
-                'Porque se basa solo en la prohibición y en el castigo legal de los consumidores.',
+              texto: 'Expulsión inmediata del trabajador que consuma.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Confidencialidad y apoyo en la intervención.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto:
-                'Porque la prevención solo debe dirigirse a personas con antecedentes familiares de adicción.',
+              texto: 'Ocultar información sobre los riesgos del consumo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Porque los programas de prevención deben enfocarse solo en jóvenes y no en adultos.',
+              texto: 'Permitir el consumo moderado en el lugar de trabajo.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. La prevención es más efectiva cuando se trabaja desde múltiples niveles, incluyendo educación, apoyo familiar, políticas públicas y entornos saludables, en lugar de centrarse solo en la prohibición o en grupos específicos.',
+            'Lo sentimos, su respuesta no es la correcta. La confidencialidad y el acceso a ayuda profesional fomentan la confianza y permiten una intervención efectiva.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
