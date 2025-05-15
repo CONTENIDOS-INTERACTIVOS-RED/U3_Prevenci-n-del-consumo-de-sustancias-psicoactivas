@@ -8,8 +8,8 @@
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto Opciones de prevención e intervención en el contexto laboral 
-          p.mb-5(data-aos="fade-up") La prevención e intervención frente al consumo de sustancias psicoactivas en el entorno laboral es clave para proteger la salud de los trabajadores y el bienestar organizacional. En el PDF Opciones de prevención e intervención en el contexto labora l, se presentan estrategias que incluyen programas educativos, políticas claras, acciones de apoyo emocional e intervención temprana, con el fin de crear ambientes laborales saludables y sostenibles. Este enfoque integral permite a las empresas asumir una posición activa frente a una problemática que impacta directamente en la productividad y en la calidad de vida de su talento humano.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Opciones de prevención e intervención en el contexto laboral.pdf')" target="_blank")
+          p.mb-5(data-aos="fade-up") La prevención e intervención frente al consumo de sustancias psicoactivas en el entorno laboral es clave para proteger la salud de los trabajadores y el bienestar organizacional. En el PDF Opciones de prevención e intervención en el contexto laboral, se presentan estrategias que incluyen programas educativos, políticas claras, acciones de apoyo emocional e intervención temprana, con el fin de crear ambientes laborales saludables y sostenibles. Este enfoque integral permite a las empresas asumir una posición activa frente a una problemática que impacta directamente en la productividad y en la calidad de vida de su talento humano.
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Opciones_de_prevención.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Opciones de prevención e intervención en el contexto laboral 
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
@@ -56,7 +56,7 @@
       .col-3.d-none.d-xl-block
         img(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')
       .col-12.col-xl-9.d-flex
-        .my-auto
+        .my-auto.px-3.px-xl-0
           p.mb-0 ●	<b>Folletos y trípticos.</b> Breves documentos con información sobre los efectos de las sustancias y alternativas saludables.<br><br>●	<b>Carteles y afiches.</b> Diseñados para captar la atención en áreas comunes, promoviendo mensajes de prevención y ayuda.<br><br>●	<b>Recursos digitales.</b> Videos, infografías y artículos que permitan el aprendizaje autónomo y continuo.
     #t_1_3.titulo-segundo(data-aos="flip-up")
       div.d-flex
@@ -104,7 +104,7 @@
 
         p.mb-4 Para garantizar que los programas de educación y concientización sean efectivos, es esencial implementar mecanismos de evaluación y mejora continua. Algunas estrategias incluyen:
 
-        .row.mb-4.justify-content-center
+        .row.justify-content-center
           .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
             .custom-image-card.d-flex.flex-column.p-4.py-md-5
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-13.svg', style='width: 80px')
@@ -115,7 +115,7 @@
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-13.svg', style='width: 80px')
               p.text-bold.mb-4.text-center Segundo
               p.px-1.text-small.mb-0.text-center Análisis de indicadores como tasas de ausentismo, accidentes laborales y productividad antes y después de las iniciativas.
-          .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+          .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-xl-0(data-aos='zoom-in')
             .custom-image-card.d-flex.flex-column.p-4.py-md-5
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-13.svg', style='width: 80px')
               p.text-bold.mb-4.text-center Tercero
@@ -139,8 +139,8 @@
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto Políticas de tolerancia cero y normativas internas
-          p.mb-5(data-aos="fade-up") Las políticas de tolerancia cero frente al consumo de sustancias psicoactivas en el entorno laboral son una herramienta fundamental para promover entornos seguros, responsables y saludables. En el PDF Políticas de tolerancia cero y normativas internas , se presentan los elementos esenciales para su implementación efectiva, como el código de conducta, los procedimientos de evaluación, las estrategias de apoyo y las acciones de sensibilización. Este enfoque permite a las organizaciones establecer normas claras, prevenir riesgos y brindar acompañamiento a quienes lo necesiten, fortaleciendo la cultura de bienestar y respeto dentro del ambiente laboral.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Políticas de tolerancia cero y normativas internas.pdf')" target="_blank")
+          p.mb-5(data-aos="fade-up") Las políticas de tolerancia cero frente al consumo de sustancias psicoactivas en el entorno laboral son una herramienta fundamental para promover entornos seguros, responsables y saludables. En el PDF Políticas de tolerancia cero y normativas internas, se presentan los elementos esenciales para su implementación efectiva, como el código de conducta, los procedimientos de evaluación, las estrategias de apoyo y las acciones de sensibilización. Este enfoque permite a las organizaciones establecer normas claras, prevenir riesgos y brindar acompañamiento a quienes lo necesiten, fortaleciendo la cultura de bienestar y respeto dentro del ambiente laboral.
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Políticas_de_tolerancia_cero.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Políticas de tolerancia cero y normativas internas
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
@@ -249,7 +249,7 @@
         h2 d.	Seguimiento y evaluación
         p.mb-4 El apoyo a los empleados en riesgo no debe limitarse a la intervención inicial; el seguimiento y la evaluación continua son esenciales para garantizar resultados positivos y sostenibles.
 
-        .row.mb-4.justify-content-center
+        .row.justify-content-center
           .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
             .custom-image-card.d-flex.flex-column.p-4.py-md-5
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-27.svg', style='width: 80px')
@@ -265,7 +265,7 @@
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-29.svg', style='width: 80px')
               p.text-bold.mb-4.text-center Evaluación de impacto
               p.px-1.text-small.mb-0.text-center Medición de la efectividad de las intervenciones a través de encuestas y análisis de desempeño laboral.
-          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-xl-0(data-aos='zoom-in')
             .custom-image-card.d-flex.flex-column.p-4.py-md-5
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-30.svg', style='width: 80px')
               p.text-bold.mb-4.text-center Ajustes en el programa

@@ -20,20 +20,20 @@
             p.mb-4 El objetivo principal de este proceso formativo, es capacitarlos en aspectos claves sobre prevención e intervención en el contexto laboral, así como su repercusión en el bienestar individual, familiar y social. Utilizando una metodología activa y colaborativa, se fomentará el aprendizaje conjunto que habilite a los asistentes a enfrentar los desafíos relacionados con estas sustancias desde una perspectiva estratégica y abarcadora.
             span El proceso se estructura en tres temas fundamentales:
 
-        .row.mb-4
+        .row
           .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-right")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-bold.text-center Tema 1
                 p.text-small.px-4.text-center.pb-2 Aborda los enfoques de intervención en el contexto laboral, donde se analizarán las diversas metodologías y prácticas que pueden ser aplicadas para gestionar el consumo de sustancias psicoactivas, enfatizando la importancia de la detección temprana y la intervención oportuna.
-          .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-right")
+          .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-up")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-4.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-bold.text-center Tema 2
                 p.text-small.px-4.text-center.pb-2 Se dedica a la estrategia <b>Treatnet</b>, presentándola como un modelo de apoyo efectivo que ofrece herramientas y recursos para la implementación de programas de prevención y tratamiento, adaptados a las necesidades específicas del entorno laboral.
-          .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-right")
+          .col-10.col-md-6.col-lg-4.mx-auto(data-aos="fade-left")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-5.png', alt='Texto que describa la imagen')
               div.mb-4
